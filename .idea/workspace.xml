@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a4e1569-c398-4c00-9d86-2ea5d193529d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/compiler/checker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/checker.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/checker.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="647" column="33" selection-start-line="647" selection-start-column="33" selection-end-line="647" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/debug.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/utilities.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="7385" column="20" selection-start-line="7385" selection-start-column="20" selection-end-line="7385" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/commandLineParser.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="413" column="52" lean-forward="true" selection-start-line="413" selection-start-column="52" selection-end-line="413" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/compiler/transformers/ts.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-239">
+              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/types.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="3989" column="8" selection-start-line="3989" selection-start-column="8" selection-end-line="3989" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/program.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="1524" column="89" selection-start-line="1524" selection-start-column="89" selection-end-line="1524" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/diagnosticInformationMap.generated.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="778" column="166" lean-forward="true" selection-start-line="778" selection-start-column="166" selection-end-line="778" selection-end-column="237" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsc/tsc.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="252" column="27" selection-start-line="252" selection-start-column="27" selection-end-line="252" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/watch.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>strictnull</find>
+      <find>strictnullch</find>
+      <find>strictNullCh</find>
+      <find>foo</find>
+      <find>strictnullche</find>
+      <find>2322</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/compiler/utilities.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
+    <option name="y" value="23" />
+    <option name="width" value="2029" />
+    <option name="height" value="1129" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TypeScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypeScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="ics" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.tsc.js (1)">
+    <list>
+      <item itemvalue="Node.js.tsc.js" />
+      <item itemvalue="Node.js.tsc.js (1)" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a4e1569-c398-4c00-9d86-2ea5d193529d" name="Default Changelist" comment="" />
+      <created>1566269353183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566269353183</updated>
+      <workItem from="1566269354658" duration="186000" />
+      <workItem from="1566269655865" duration="2145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2331000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-5" y="23" width="2029" height="1129" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20235294" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32908913" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.15866797" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Debug" order="3" weight="0.49521893" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tmp.js" />
+        <option value="$PROJECT_DIR$/tests/cases/projects/jsFileCompilation/SameNameTsSpecified/a.js" />
+        <option value="$PROJECT_DIR$/tests/cases/projects/jsFileCompilation/SameNameFilesNotSpecified/a.js" />
+        <option value="$PROJECT_DIR$/tests/cases/projects/jsFileCompilation/SameNameTsSpecifiedWithAllowJs/a.js" />
+        <option value="$PROJECT_DIR$/tests/cases/projects/jsFileCompilation/SameNameFilesNotSpecifiedWithAllowJs/a.js" />
+        <option value="$PROJECT_DIR$/tests/cases/projects/declarations_GlobalImport/glo_m4.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/projects/declarations_GlobalImport/useModule.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/types/specifyingTypes/typeReferences/genericTypeReferenceWithoutTypeArgument.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/Statements/ReturnStatements/parserReturnStatement4.js" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/EnumDeclarations/parserEnumDeclaration3.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/EnumDeclarations/parserEnumDeclaration2.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/ClassDeclarations/parserClassDeclaration7.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/ModuleDeclarations/parserModuleDeclaration3.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/ModuleDeclarations/parserModuleDeclaration4.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/ModuleDeclarations/parserModuleDeclaration2.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/ModuleDeclarations/parserModuleDeclaration1.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/FunctionDeclarations/parserFunctionDeclaration2.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/FunctionDeclarations/parserFunctionDeclaration1.d.ts" />
+        <option value="$PROJECT_DIR$/tests/cases/conformance/parser/ecmascript5/VariableDeclarations/parserVariableDeclaration4.d.ts" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_VariableList_const.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_Directive.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_PinnedCommentAndDocComment.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_Function.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_StatementInsertionPosition4.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_BlockScopes_NoDependencies.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ExpressionStatementInNestedScope.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_StatementInsertionPosition3.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_StatementInsertionPosition7.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ArrowFunction_Expression.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ArrowFunction_Block.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ExpressionStatementConsumesLocal.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ClassInsertionPosition1.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_CaseClauseExpression.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_PreserveTrivia.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_StatementInsertionPosition2.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_MultipleHeaders.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_StatementInsertionPosition6.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_Class.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_Parameters.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ClassInsertionPosition2.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_This_Method.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_TripleSlash.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_TopLevel.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_StatementInsertionPosition1.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ExpressionStatementExpression.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_StatementInsertionPosition5.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_Method.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_PinnedComment.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ClassInsertionPosition3.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_ExpressionStatement.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_VariableList_let.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_BlockScopeMismatch.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_This_Constructor.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractConstant/extractConstant_VariableList_MultipleLines.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Const_NoType.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Writes_Const_NoType.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_ShorthandProperty.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Writes_Mixed1.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_NoDeclarations.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Writes_Var.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction26.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction22.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Multiple2.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Var.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Writes_Mixed2.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction25.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction21.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Let_NoType.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction28.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction20.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction24.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction33.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_NamelessClass.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction27.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_PreserveTrivia.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_DeclaredTwice.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/extractFunction/extractFunction_VariableDeclaration_Writes_Let_NoType.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_UntypedFunction.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_NoRes4.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_catchBlockUniqueParamsBindingPattern.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_IgnoreArgs4.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_callbackReturnsPromise.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_CatchFollowedByThenMismatchTypes01.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_exportModifier.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_CatchFollowedByThenMatchingTypes02NoAnnotations.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_OutermostOnlySuccess.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_simpleFunctionExpression.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_TernaryConditional.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_PromiseAllAndThen.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_PromiseAllAndThen2.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_CatchFollowedByThenMismatchTypes03.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_callbackReturnsRejectedPromiseInTryBlock.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_basicNoReturnTypeAnnotation.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_Conditional2.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_simpleFunctionExpressionAssignedToBindingPattern.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_runEffectfulContinuation.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_callbackReturnsPromiseLastInChain.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_Conditionals.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_Scope3.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_callbackReturnsFixablePromise.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_nestedPromises.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_callbackReturnsPromiseInBlock.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_Loop.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_PromiseCallInner.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_bindingPattern.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_NestedFunctionRightLocation.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_ResRejNoArgsArrow.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_CatchFollowedByThenMatchingTypes01NoAnnotations.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_simpleFunctionExpressionWithName.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_LocalReturn.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_CatchFollowedByThenMismatchTypes02NoAnnotations.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_NoCatchHandler.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_catchBlockUniqueParams.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_ArrowFunctionNoAnnotation.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_bindingPatternNameCollision.js" />
+        <option value="$PROJECT_DIR$/tests/baselines/reference/convertToAsyncFunction/convertToAsyncFunction_CatchFollowedByThen.js" />
+        <option value="$PROJECT_DIR$/scripts/word2md.js.map" />
+        <option value="$PROJECT_DIR$/scripts/word2md.js" />
+        <option value="$PROJECT_DIR$/scripts/produceLKG.js.map" />
+        <option value="$PROJECT_DIR$/scripts/produceLKG.js" />
+        <option value="$PROJECT_DIR$/scripts/processDiagnosticMessages.js.map" />
+        <option value="$PROJECT_DIR$/scripts/processDiagnosticMessages.js" />
+        <option value="$PROJECT_DIR$/scripts/generateLocalizedDiagnosticMessages.js.map" />
+        <option value="$PROJECT_DIR$/scripts/generateLocalizedDiagnosticMessages.js" />
+        <option value="$PROJECT_DIR$/scripts/buildProtocol.js.map" />
+        <option value="$PROJECT_DIR$/scripts/buildProtocol.js" />
+        <option value="$PROJECT_DIR$/scripts/configurePrerelease.js.map" />
+        <option value="$PROJECT_DIR$/scripts/configurePrerelease.js" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>645</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>647</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>5227</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>5284</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>5310</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>6020</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>7639</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>8166</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>9373</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>9697</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>9950</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>10097</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>11565</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>12592</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>13874</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>14721</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>14925</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>14941</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>16481</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>17439</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>17857</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>18035</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>19631</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>20641</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>20655</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>20767</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>20776</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>23199</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>23715</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>23773</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>24251</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>24365</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>24639</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>26949</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>27797</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>27809</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>28815</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>29546</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>31701</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>31709</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/transformers/ts.ts</url>
+          <line>43</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/transformers/ts.ts</url>
+          <line>1598</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/commandLineParser.ts</url>
+          <line>426</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/types.ts</url>
+          <line>4764</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>9728</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>9727</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/debug.ts</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/compiler/checker.ts</url>
+          <line>10084</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>flags</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TypeFlags.Nullable</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TypeFlags</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nullWideningType</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>undefinedType</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>undefinedWideningType</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>strictNullChecks</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>compilerOptions</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>compilerOptions.strict</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/compiler/commandLineParser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="413" column="52" lean-forward="true" selection-start-line="413" selection-start-column="52" selection-end-line="413" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/utilities.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="7385" column="20" selection-start-line="7385" selection-start-column="20" selection-end-line="7385" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsc/tsc.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="252" column="27" selection-start-line="252" selection-start-column="27" selection-end-line="252" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/diagnosticInformationMap.generated.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="778" column="166" lean-forward="true" selection-start-line="778" selection-start-column="166" selection-end-line="778" selection-end-column="237" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/watch.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/program.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="1524" column="89" selection-start-line="1524" selection-start-column="89" selection-end-line="1524" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="3989" column="8" selection-start-line="3989" selection-start-column="8" selection-end-line="3989" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/debug.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/checker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="647" column="33" selection-start-line="647" selection-start-column="33" selection-end-line="647" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/transformers/ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

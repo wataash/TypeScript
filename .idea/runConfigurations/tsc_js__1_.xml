@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="tsc.js (1)" type="NodeJSConfigurationType" application-parameters="--strictNullChecks tmp.ts" nameIsGenerated="true" path-to-js-file="built/local/tsc.js" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>
